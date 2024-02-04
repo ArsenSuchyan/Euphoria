@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Products List Page</title>
+	</head>
+	<body>
+
+      <div class="wrapper">
+         <header class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">
+						<img src="img/header/logo.svg" alt="logo">
+					</a>
+					<nav class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link-item">Shop</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link-item">Men</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link-item menu__link-item--chosen">Women</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link-item">Combos</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link-item">Joggers</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<form class="header__wrapper-search" action="#" method="GET">
+						<input class="header__search" id="search" name="Search" type="text" placeholder="Search">
+					</form>
+					<div class="header__actions actions">
+						<a href="#" class="actions__item actions__item--main">
+							<img src="img/header/favorite.svg" alt="favorites">
+						</a>
+						<a href="#" class="actions__item actions__item--main">
+							<img src="img/header/user.svg" alt="user">
+						</a>
+						<a href="#" class="actions__item actions__item--main">
+							<img src="img/header/basket.svg" alt="basket">
+						</a>
+						<div class="actions__item actions__item--button">
+							<div class="actions__menu-item">
+								<span></span>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</header>
+
+         <main class="page">
+            <section class="page__womens-clothing womens-clothing">
+               <div class="womens-clothing__container">
+                  <button class="womens-clothing__open-filter _icon-settings"></button>
+                  <div class="womens-clothing__filter filter">
+                     <div class="filter__header">
+                        <h3 class="filter__name-header">Filter</h3>
+                        <div class="filter__logo _icon-settings"></div>
+                     </div>
+                     <div class="filter__categories">
+                        <div class="filter__category">
+                           <div class="filter__name-category">Tops</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Printed T-shirts</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Plain T-shirts</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Kurti</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Boxers</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Full sleeve T-shirts</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Joggers</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Payjamas</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                        <div class="filter__category">
+                           <div class="filter__name-category">Jeans</div>
+                           <div class="filter__chevron _icon-c-right"></div>
+                        </div>
+                     </div>
+                     <div class="filter__price">
+                        <div class="filter__header-price">
+                           <div class="filter__name-header filter__name-header--open">Price</div>
+                           <div class="filter__chevron-down _icon-c-down"></div>
+                        </div>
+                        <div class="filter__slider">
+                           <div class="filter__body-slider">
+                              <div class="filter__line-slider"></div>
+                              <div class="filter__lever-slider filter__lever-slider--min"></div>
+                              <div class="filter__lever-slider filter__lever-slider--max"></div>
+                           </div>
+                           <div class="filter__prices">
+                              <div class="filter__value-price">$70</div>
+                              <div class="filter__value-price">$600</div>
+                           </div>
+                           
+                        </div>
+                     </div>
+                     <div class="filter__colors">
+                        <div class="filter__header-colors">
+                           <div class="filter__name-header filter__name-header--open">Colors</div>
+                           <div class="filter__chevron-down _icon-c-down"></div>
+                        </div>
+                        <div class="filter__body-colors">
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--purple"></div>
+                              <div class="filter__color-name">Purple</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--black"></div>
+                              <div class="filter__color-name">Black</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--red"></div>
+                              <div class="filter__color-name">Red</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--orange"></div>
+                              <div class="filter__color-name">Orange</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--navy"></div>
+                              <div class="filter__color-name">Navy</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--white"></div>
+                              <div class="filter__color-name">White</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--broom"></div>
+                              <div class="filter__color-name">Broom</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--green"></div>
+                              <div class="filter__color-name">Green</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--yellow"></div>
+                              <div class="filter__color-name">Yellow</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--grey"></div>
+                              <div class="filter__color-name">Grey</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--pink"></div>
+                              <div class="filter__color-name">Pink</div>
+                           </div>
+                           <div class="filter__item-color">
+                              <div class="filter__color-item filter__color-item--blue"></div>
+                              <div class="filter__color-name">Blue</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="filter__size">
+                        <div class="filter__header-size">
+                           <div class="filter__name-header filter__name-header--open">Size</div>
+                           <div class="filter__chevron-down _icon-c-down"></div>
+                        </div>
+                        <div class="filter__body-size">
+                           <div class="filter__item-size">XXS</div>
+                           <div class="filter__item-size">XL</div>
+                           <div class="filter__item-size">XS</div>
+                           <div class="filter__item-size">S</div>
+                           <div class="filter__item-size">M</div>
+                           <div class="filter__item-size">L</div>
+                           <div class="filter__item-size">XXL</div>
+                           <div class="filter__item-size">3XL</div>
+                           <div class="filter__item-size">4XL</div>
+                        </div>
+                     </div>
+                     <div class="filter__dress-style">
+                        <div class="filter__header-style">
+                           <div class="filter__name-header filter__name-header--open">Dress Style</div>
+                           <div class="filter__chevron-down _icon-c-down"></div>
+                        </div>
+
+                        <div class="filter__body-stile">
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Classic</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Casual</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Business</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Sport</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Elegant</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           <div class="filter__item-style">
+                              <div class="filter__name-style">Formal (evening)</div>
+                              <div class="filter__chevron _icon-c-right"></div>
+                           </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+                  <div class="womens-clothing__products-main main-products">
+                     <div class="main-products__header">
+                        <h2 class="main-products__title-header">Women’s Clothing</h2>
+                        <div class="main-products__categories">
+                           <div type="button" class="main-products__category">New</div>
+                           <div class="main-products__category">Recommended</div>
+                        </div>
+                     </div>
+                     
+                     <div class="limelight__cards limelight__cards--own-page">
+
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block8/image1.webp" alt="image" class="limelight-card__image">
+                              <button type="button" class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </button>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Black Sweatshirt with</h3>
+                                 <div class="limelight-card__link">Jhanvi’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$123.00</div>
+                           </div>
+                        </article>
+   
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block6/image4.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">line Pattern Black H</h3>
+                                 <div class="limelight-card__link">AS’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$37.00</div>
+                           </div>
+                        </article>
+   
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block8/image4.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Black Shorts</h3>
+                                 <div class="limelight-card__link">MM’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$37.00</div>
+                           </div>
+                        </article>
+   
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image2.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                        
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image3.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block8/image3.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image4.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+
+                        </article>
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image5.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image6.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/products-list-page/image7.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block6/image3.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                        <article class="limelight__item-cards limelight-card">
+                           <a href="#" class="limelight-card__photo">
+                              <img src="img/block8/image2.webp" alt="image" class="limelight-card__image">
+                              <div class="limelight-card__favorite">
+                                 <img src="img/block8/heart.svg" alt="like" class="limelight-card__heart">
+                              </div>
+                           </a>
+                           <div class="limelight-card__info">
+                              <div class="limelight-card__main-info">
+                                 <h3 class="limelight-card__title">Levender Hoodie with</h3>
+                                 <div class="limelight-card__link">Nike’s  Brand</div>
+                              </div>
+                              <div class="limelight-card__price">$119.00</div>
+                           </div>
+                        </article>
+                  </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="page__text-block text-block">
+               <div class="text-block__container">
+                  <h2 class="text-block__title title">Clothing for Women Online in India</h2>
+                  <div class="text-block__body">
+                     <div class="text-block__chapter">
+                        <h3 class="text-block__title-chapter">Reexplore Women's Clothing Collection Online at Euphoria</h3>
+                        <div class="text-block__text">
+                           <p>Women's Clothing – Are you searching for the best website to buy Clothing for Women online in India? Well, your search for the coolest and most stylish womens clothing ends here. From trendy Casual Womens Wear Online shopping to premium quality cotton women's apparel, <span>Euphoria</span> has closet of Women Collection covered with the latest and best designs of Women's Clothing Online.</p>
+                           <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance of choice in Womens Wear.</p>
+                        </div>
+                     </div>
+                     <div class="text-block__chapter">
+                        <h3 class="text-block__title-chapter">One-Stop Destination to Shop Every Clothing for Women: Euphoria</h3>
+                        <div class="text-block__text">
+                           <p>Today, Clothing for Women is gaining more popularity above all. This is because gone are the days when women were used to carrying uncomfortable fashion. Today, a lady looks prettier when she is in Casual Womens Wear which is a comfortable outfit. Concerning this, <span>Euphoria</span> has a big fat range of Stylish Women's Clothing that would make her the winner wherever she goes. </p>
+                           <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance of choice in Womens Wear. It is quite evident to say that there are very few Womens Clothing online stores where you can buy Western Wear for Women comprising the premium material and elegant design that you are always seeking for. Basically, </p>
+                        </div>
+                     </div>
+                     <a href="#" class="text-block__title-chapter text-block__title-chapter--link">See More</a>
+                  </div>
+               </div>
+            </section>
+
+            <section class="page__table-block table-block">
+               <div class="table-block__container">
+                  <h2 class="table-block__title title">Buy Women's Clothing at Best Price</h2>
+                  <div class="table-block__body">
+                     <h3 class="table-block__column-title table-block__column-title--left">Women's Clothing</h3>
+                     <h3 class="table-block__column-title">Best Price</h3>
+                     <div class="table-block__column table-block__column--left">
+                        <div class="table-block__item">Pick Any 4- Womens Plain T-shirt Combo</div>
+                        <div class="table-block__item">Pick Any 4- Plain Womens Boxer Combo</div>
+                        <div class="table-block__item">Pick Any 4 - Women Plain Full Sleeve T-shirt Combo</div>
+                        <div class="table-block__item">Multicolor Checkered Long Casual Shirts for Women</div>
+                        <div class="table-block__item">Pick Any 2: Plain Boxy Casual Shirts for Women Combo</div>
+                        <div class="table-block__item">Blue Floral Anarkali Kurti</div>
+                        <div class="table-block__item">Jade Black Narrow Cut Flexible Women Jeggings</div>
+                        <div class="table-block__item">Mustard-yellow Solid Straight-Fit Women Pant</div>
+                        <div class="table-block__item">Women Pants Combo - Pick Any 2</div>
+                        <div class="table-block__item">Pista Green Solid Boxy Casual Shirts for Women</div>
+                        <div class="table-block__item">Plain Burgundy Womens Boxer</div>
+                        <div class="table-block__item">Striped Front Tie Casual Shirts for Women</div>
+                     </div>
+                     <div class="table-block__column table-block__column--center">
+                        <div class="table-block__item">₹1099</div>
+                        <div class="table-block__item">₹1099</div>
+                        <div class="table-block__item">₹1399</div>
+                        <div class="table-block__item">₹499</div>
+                        <div class="table-block__item">₹799</div>
+                        <div class="table-block__item">₹599</div>
+                        <div class="table-block__item">₹998</div>
+                        <div class="table-block__item">₹499</div>
+                        <div class="table-block__item">₹800</div>
+                        <div class="table-block__item">₹449</div>
+                        <div class="table-block__item">₹349</div>
+                        <div class="table-block__item">₹449</div>
+                     </div>
+                  </div>
+               </div>
+
+            </section>
+         </main>
+         <footer class="footer">
+				<div class="footer__container">
+					<div class="footer__navigation navigation">
+						<div class="navigation__column">
+							<h4 class="navigation__item navigation__item--title">Need Help</h4>
+							<a href="#" class="navigation__item">Contact Us</a>
+							<a href="#" class="navigation__item">Track Order</a>
+							<a href="#" class="navigation__item">Returns & Refunds</a>
+							<a href="#" class="navigation__item">FAQ's</a>
+							<a href="#" class="navigation__item">Career</a>
+						</div>
+						<div class="navigation__column">
+							<h4 class="navigation__item navigation__item--title">Company</h4>
+							<a href="#" class="navigation__item">About Us</a>
+							<a href="#" class="navigation__item">euphoria Blog</a>
+							<a href="#" class="navigation__item">euphoriastan</a>
+							<a href="#" class="navigation__item">Collaboration</a>
+							<a href="#" class="navigation__item">Media</a>
+						</div>
+						<div class="navigation__column">
+							<h4 class="navigation__item navigation__item--title">More Info</h4>
+							<a href="#" class="navigation__item">Term and Conditions</a>
+							<a href="#" class="navigation__item">Privacy Policy</a>
+							<a href="#" class="navigation__item">Shipping Policy</a>
+							<a href="#" class="navigation__item">Sitemap</a>
+						</div>
+						<div class="navigation__column">
+							<h4 class="navigation__item navigation__item--title">Location</h4>
+							<a href="#" class="navigation__item">support@euphoria.in</a>
+							<div class="navigation__item">Eklingpura Chouraha, Ahmedabad Main Road</div>
+							<div class="navigation__item">(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</div>
+						</div>
+					</div>
+
+					<div class="footer__contacts">
+						<div class="footer__social-media">
+							<a href="#"><img src="img/footer/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="img/footer/instagram.svg" alt="instagram"></a>
+							<a href="#"><img src="img/footer/twitter.svg" alt="twitter"></a>
+							<a href="#"><img src="img/footer/linkedin.svg" alt="linkedin"></a>
+						</div>
+						<div class="footer__download download">
+							<h4 class="download__title">Download The App </h4>
+							<div class="download__body">
+								<a href="#"><img src="img/footer/google.svg" alt="google play"></a>
+								<a href="#"><img src="img/footer/apple.svg" alt="app store"></a>
+							</div>
+						</div>
+					</div>
+
+					<button class="footer__popular">Popular Categories</button>
+
+					<div class="footer__copyright">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</div>
+				</div>
+
+			</footer>
+      </div>
+      <script src="js/script.js"></script>
+   </body>

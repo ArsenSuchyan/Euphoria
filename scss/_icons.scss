@@ -1,0 +1,103 @@
+
+ 
+ [class*="_icon-"]::before {
+   display: inline-block;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
+ ._icon-a-down:before {
+   content: "\e900";
+ }
+ ._icon-a-left:before {
+   content: "\e901";
+ }
+ ._icon-a-right:before {
+   content: "\e902";
+ }
+ ._icon-a-up:before {
+   content: "\e903";
+ }
+ ._icon-bascet:before {
+   content: "\e904";
+ }
+ ._icon-card:before {
+   content: "\e905";
+ }
+ ._icon-c-down:before {
+   content: "\e906";
+ }
+ ._icon-c-left:before {
+   content: "\e907";
+ }
+ ._icon-close:before {
+   content: "\e908";
+ }
+ ._icon-comment:before {
+   content: "\e909";
+ }
+ ._icon-c-right:before {
+   content: "\e90a";
+ }
+ ._icon-c-up:before {
+   content: "\e90b";
+ }
+ ._icon-eye:before {
+   content: "\e90c";
+ }
+ ._icon-favorite:before {
+   content: "\e90d";
+ }
+ ._icon-linkedin:before {
+   content: "\e90e";
+ }
+ ._icon-orders:before {
+   content: "\e90f";
+ }
+ ._icon-play:before {
+   content: "\e910";
+ }
+ ._icon-play2:before {
+   content: "\e911";
+ }
+ ._icon-search:before {
+   content: "\e912";
+ }
+ ._icon-settings:before {
+   content: "\e913";
+ }
+ ._icon-s-facebook:before {
+   content: "\e914";
+ }
+ ._icon-shipping:before {
+   content: "\e915";
+ }
+ ._icon-sign-out:before {
+   content: "\e916";
+ }
+ ._icon-s-instagram:before {
+   content: "\e917";
+ }
+ ._icon-size-fit:before {
+   content: "\e918";
+ }
+ ._icon-trash:before {
+   content: "\e919";
+ }
+ ._icon-truck:before {
+   content: "\e91a";
+ }
+ ._icon-twitter:before {
+   content: "\e91b";
+ }
+ ._icon-user:before {
+   content: "\e91c";
+ }
+ 
